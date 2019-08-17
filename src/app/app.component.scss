@@ -1,0 +1,36 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    max-width: 70rem;
+    margin: 0 auto;
+    border: 1px solid #777;
+    border-radius: 4px;
+    padding: 1.6rem;
+}
+
+.form-input {
+    margin-bottom: 1rem;
+
+    & label {
+        font-size: 1.6rem;
+    }
+}
+
+#sendDate {
+    width: 8.5rem;
+}
+
+#invoiceNumber {
+    width: 3rem;
+}
